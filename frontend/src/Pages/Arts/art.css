@@ -1,0 +1,221 @@
+.art{
+    margin-top: 55px;
+    display: flex;
+    padding: 30px 0;
+    justify-content: center;
+    background-color: rgb(238, 210, 210);
+}
+.videopost_section{
+    width:100%;
+    max-width:875px;
+    display:flex;
+    flex-direction:column;
+}
+.video_art{
+    width:100%;
+}
+.video_art_video{
+    width:100%;
+    border-radius: 10px;
+}
+.artsuggestions{
+    width:100%;
+    max-width: 400px;
+    padding: 10px 15px;
+    gap:15px;
+    color:black;
+    display: flex;
+    flex-direction: column;
+
+}
+.art_title{
+    font: 20px;
+    font-weight: 700;
+}
+.upper{
+    display:flex;
+    gap:535px;
+}
+.profileblock{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.profileblockleft{
+display: flex;
+gap:15px;
+}
+.profileblockleftimage {
+  width: 40px;   /* reduced from 40px */
+  height: 40px;
+  cursor: pointer;
+}
+
+.profileleftimage{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #ccc;  /* optional thin border */
+}
+.profileviews{
+    display: flex;
+    flex-direction: column;
+}
+.profilename{
+    font-weight: 500;
+    font-size: 16px;
+}
+.profiledate{
+    font-size: 14px;
+}
+.subscribebutton{
+    background-color: rgb(10, 72, 110);
+    color:white;
+    padding: 0px 16px;
+    border-radius: 18px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:36px;
+    font-weight: 600;
+    cursor:pointer;
+    font-size: 14px;
+}
+.likeblock{
+    display:flex;
+    gap:10px;
+    background-color: rgb(215, 184, 184);
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.likeoption{
+    display:flex;
+    gap:10px;
+}
+
+.likescount{
+    font-weight:500;
+}
+.artabout{
+    display:flex;
+    flex-direction: column;
+    padding:10px;
+    background-color: rgb(215, 184, 184);
+    width:100%;
+    border-radius: 10px;
+padding:12px;
+font-weight:500;
+gap:10px;
+margin-top:10px;
+box-sizing: border-box;
+}
+.comment-section{
+    display:flex;
+    flex-direction:column;
+    margin-top:20px;
+}
+.commentsectiontitle{
+    font-size: 20px;
+    font-weight:500;
+}
+.selfcomment{
+    display:flex;
+   gap:10px;
+    margin-top:10px;
+}
+.selfcommentimage{
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+}
+.addcomment{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.addcommentInput{
+    width:100%;
+    background-color:rgb(238, 210, 210);
+    color:white;
+    height:35px;
+    border:none;
+    font-size: 16px;
+    border-bottom: 1px solid gray;
+    &:focus{
+        outline:none;
+    }
+    &::placeholder{
+        font-size:16px;
+    }
+}
+.cancel{
+    display: flex;
+    justify-content: flex-end;
+    gap:15px;
+    margin-top:10px;
+}
+.cancelcomment{
+padding: 8px 16px;
+border-radius: 18px;
+border:1px solid;
+cursor:pointer;
+&:hover{
+    background-color: white;
+    color:black;
+}
+}
+.othercomment{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.others_commentsection{
+    display:flex;
+    flex-direction: column;
+}
+.othercomment_section_header{
+display:flex;
+gap:10px;
+}
+.channel_name{
+    font-size:14px;
+    font-weight:500;
+}
+.timingsothers{
+    font-size:14px;
+}
+.othsrcommentsection_comment{
+margin-top:10px;
+}
+.artsuggestions_block{
+    display: flex;
+    gap:15px;
+    cursor:pointer;
+}
+.artsuggestion_thumbnail{
+width:168px;
+height:94px;
+}
+.artsuggestionthumbnailimage{
+    width:inherit;
+}
+.artsuggestion_about{
+    display:flex;
+    flex-direction:column;
+    gap:3px;
+}
+.artsuggestion_about_title{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.artsuggestion_about_profile{
+font-size: 12px;
+}
