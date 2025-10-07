@@ -1,9 +1,10 @@
-import React from 'react'
+import {React,useState} from 'react'
 import './art.css';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 import BookmarkBorderOutlinedIcon from '@mui/icons-material/BookmarkBorderOutlined';
 import {Link} from 'react-router-dom';
 const Arts = () => {
+    const[message,setMessage]=useState("");
   return (
     <div className='art'>
         <div className="videopost_section">
@@ -61,7 +62,7 @@ const Arts = () => {
             <div className="selfcomment">
                 <img src="https://wallpapercave.com/avt/UnknownUser.png?v=4" className='selfcommentimage' />
                 <div className="addcomment">
-                    <input type="text" className='addcommentInput' placeholder='add a comment'/>
+                    <input type="text" className='addcommentInput' placeholder='add a comment'value={message} onChange={(e)=>{setMessage(e.target.value)}}/>
                    <div className="cancel">
                     <div className="cancelcomment">
                         Cancel
