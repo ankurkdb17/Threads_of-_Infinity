@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 .login{
     width: 100%;
     height: 100%;
@@ -33,7 +34,7 @@
     gap:10px;
 }
 .navbar_title{
-    font-size: 50px;
+    font-size: 10px;
     word-spacing: 0px;
     letter-spacing: 0px;
     font-family: "Dancing Script", cursive;
@@ -41,5 +42,50 @@
   font-weight: 900;
   font-style: normal;
 }
+.login_credential{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 25px;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+}
+.username_login{
+     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.username_loginusername{
+     width: 60%;
+    height: 45px;
+    padding: 0 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.login_buttons{
+     width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.loginbtn{width: 25%;
+    border: 1px solid;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    &:hover{
+        color: black;
+        background-color: white;
+    }
 
-
+}
