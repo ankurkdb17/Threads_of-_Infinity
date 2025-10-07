@@ -29,6 +29,9 @@ setLogin(true);
         navigate('/user/9797');
         setNavbarModal(false)
     }
+    const setloginmodel=()=>{
+        setLogin(false);
+    }
     const handleClick=()=>{
  setNavbarModal(prev=>!prev);
     }
@@ -85,7 +88,7 @@ setLogin(true);
              
         </div>
         {
-            login &&<Login/>
+            login &&<Login setloginmodel={setloginmodel}/>
         }
 
 
