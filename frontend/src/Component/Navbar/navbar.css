@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+.navbar{
+    height: 56px;
+    box-sizing: border-box;
+    padding: 10px 16px;
+    display: flex;
+    gap:50px;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    top:0;
+    position: fixed;
+    background-color: rgb(238, 210, 210);
+    z-index:10; 
+
+}
+.navbar-left{
+    gap:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+.navbarmenu{
+    width: 40px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.navbar_appicon{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color:rgb(26, 87, 42);
+    text-decoration:none;
+}
+.navbar_title{
+    font-size: 25px;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+/* leftnavbar ends */
+.navbar-middle{
+    display: flex;
+    gap: 20px;
+    width:50%
+}
+.navbar_searchingine{
+    width:80%;
+    display:flex;
+}
+.navbar_searchingineInput{
+    width:100%;
+    height: 40px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border:1px solid rgb(58,57,57);
+    background-color:  rgb(238, 210, 210);
+    color:rgb(11, 1, 1);
+    font-size: 16px;
+    padding-left: 30px;
+    &:focus{
+        outline: none;
+    }
+    &::placeholder{
+        outline: 16px;
+    }
+}
+.navbar_searchIconBox{
+    cursor: pointer;
+    width:70px;
+    border:1px solid rgb(42,42,42);
+    background-color:   rgb(215, 184, 184);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+
+}
+.navbar_mike{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(215, 184, 184);
+    border-radius: 50%;
+    width: 40px;
+    height:40px;
+    cursor: pointer;
+}
+/* middle navbar ends*/
+.navbar-right{
+    display:flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+   position: relative; 
+    
+}
+.navbar-right-logo{
+    width:30px;
+    border-radius:50%;
+    cursor:pointer;
+}
+.navbar-modal{
+    position: absolute;
+    top:35px;
+    width:100%;
+    z-index:20;
+}
+.navbar-modal-option{
+    background-color: rgb(238, 210, 210);
+    padding:10px;
+    cursor:pointer;
+    &:hover{
+        background-color:rgb(215, 184, 184);
+    }
+}
+.image{
+     width: 24px;     /* adjust this to make it smaller */
+  height: 24px;    /* maintain aspect ratio */
+  object-fit: contain;
+    cursor: pointer;    
+}
+.create{
+    display: flex;
+    background-color:rgb(238, 210, 210);
+    border-radius: 20px;    
+     padding: 8px 8px;
+     text-decoration: none;
+     color: black;
+    cursor: pointer;    
+    &:hover{
+        background-color:rgb(215, 184, 184);
+    }
+}
+.notification{
+    cursor:pointer;
+}
