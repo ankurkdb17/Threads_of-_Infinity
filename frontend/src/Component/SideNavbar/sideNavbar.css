@@ -1,0 +1,61 @@
+.home-sideNavbar{
+    display:flex;
+    flex-direction: column;
+    flex: 0.16 1;
+    box-sizing: border-box;
+    height: 92vh;
+    overflow-y:auto;
+    position :fixed;
+    top:55px;
+    left:0px;
+    width: 275px;
+    padding:14px;
+    background-color:rgb(238, 210, 210);
+    color:black;
+
+}
+.home-sideNavbar::-webkit-scrollbar{
+width: 12px;
+}
+.sideNavbartop{
+    display:flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(86,85,98);
+    padding-bottom: 10px;
+}
+.sideNavbar_topOption{
+    display:flex;
+    gap:20px;
+    align-items:center;
+    padding:9px 10px;
+    border-radius: 15px;
+    cursor:pointer;
+    &:hover{
+        background-color: rgb(215, 184, 184);
+    }
+}
+.sideNavbar_icon {
+  width: 24px;     /* adjust this to make it smaller */
+  height: 24px;    /* maintain aspect ratio */
+  object-fit: contain;
+}
+.home_sideNavbarToptitle{
+    font-size: 14px;
+    font-weight: 450;
+}
+.home_sideNavbarmiddle{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(86,85,98);
+    padding: 10px 0;
+
+}
+.home_sideNavbarToptitleHeade{
+    font-weight: 600;
+}
+.home-sideNavbarHide{
+    display:none;
+}
+
+
+
