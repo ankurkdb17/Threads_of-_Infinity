@@ -1,10 +1,9 @@
 import React from 'react';
 import './profile.css';
-// FIX 1: Corrected case sensitivity in import path for SideNavbar.
 import SideNavbar from '../../Component/SideNavbar/SideNavbar';
 import ArrowRightOutlinedIcon from '@mui/icons-material/ArrowRightOutlined';
 import {Link} from 'react-router-dom';
-// REMOVED: HomePage was unused (Issue 2).
+
 
 const Profile = ({sideNavbar}) => {
   return (
