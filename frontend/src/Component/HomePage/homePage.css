@@ -1,5 +1,129 @@
-.home{
+.homePage{
     display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    flex: 1;
+    margin-left: 275px;
+    min-height: 100vh;
+}
+.homePagechanege{
+    margin-left: 0px;
+}
+.homePage_options{
+    display: flex;
+    position: fixed;
+    top:56px;
+    z-index: 1;
+    width: 100%;
+    box-sizing: border-box;
+    gap: 20px;
+    flex-shrink: 0;
+    height:auto;
+    overflow-x: scroll;
+    background-color:rgb(238, 210, 210);
+
+}
+.homePage_options::-webkit-scrollbar{
+    width:12px;
+}
+
+.homePage_option{
+    flex: 0 0 auto;
+    height:30px;
+    padding: 0px 5px;
+    background-color: rgb(215, 184, 184);
+    color:black;
+    font-weight: 600;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.home_mainPage{
+    display:grid;
+    box-sizing: border-box;
+ 
+    gap:15px;
+    grid-template-columns: 400px 400px 400px;
+    padding: 102px 0 20px 0;
+}
+.home_mainPagenew{
+    display:grid;
+    box-sizing: border-box;
+ 
+    gap:15px;
+    grid-template-columns: 365px 365px 365px 365px;
+    padding: 102px 0 20px 0;
+}
+.art_collection{
+    color:black;
+    text-decoration: none;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    cursor: pointer;
+    height:300px;
+}
+.coverpage{
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    height: 216px;
+}
+.coverpagepic{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+} 
+.timing_thumbnail{
+position: absolute;
+bottom:0;
+right:0;
+width: auto;
+padding: 1px 2px;
+    }
+
+.artcreator{
+    display: flex;
+    padding-top: 10px;
+    gap:10px;
+    height:70px;
+}
+.profile{
+    /* FIX: Enforce a smaller size and add margin */
+     width: 40px; /* Set a fixed width */
+ height: 40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px; 
+}
+.art_profile{
+    /* FIX: Fill the container and ensure a perfect circle */
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.titlebox{
     width:100%;
-    box-sizing:border-box;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.art_title{
+    font-weight: 600;
+    font-size: 16px;
+}
+.username{
+    margin-top: 5px;
+    font-size: 18px;
+    
+}
+.art_views{
+    font-size: 14px;
+    
 }
