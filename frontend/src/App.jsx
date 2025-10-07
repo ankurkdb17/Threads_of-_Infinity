@@ -8,6 +8,7 @@ import { useState } from 'react'
 import {Route,Routes} from 'react-router-dom'
 import Profile from './Pages/Profile/profile'
 import ArtUpload from './Pages/ArtUpload/artUpload'
+import SignUp from './Pages/SignUp/signUp'
 
 function App() {
   const[sideNavbar,setSideNavbar]=useState(true)
@@ -25,6 +26,7 @@ function App() {
     <Route path='/view/:id' element={<Arts/>}/>
     <Route path='/user/:id' element={<Profile sideNavbar={sideNavbar}/>}/>
     <Route path='/:id/upload' element={<ArtUpload/>}/>
+    <Route path='/signup/:id' element={<SignUp/>} />
    </Routes>
 
     </div>
